@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Chromebook Site</title>
-  </head>
-  <body>
-    <p>Hi! I built this website on my Chromebook using StackBlitz.</p>
-<img src="Unagi.jpeg" alt="A beautiful shrine in Japan">
-    
-  </body>
+<head>
+    <title>My Japan 2026 Site</title>
+    <style>
+        /* This sets the background image for the whole page */
+        body {
+            background-image: url('YOUR_BACKGROUND_FILE.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        /* This container holds your three images */
+        .image-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* This styles the three images on top */
+        .image-row img {
+            width: 250px;
+            height: auto;
+            border: 5px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            border-radius: 10px;
+        }
+
+        /* Styles for the YouTube link button */
+        .youtube-link {
+            background-color: #FF0000;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        
+        .youtube-link:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-row">
+        <img src="IMAGE_ONE.jpg" alt="Description 1">
+        <img src="IMAGE_TWO.jpg" alt="Description 2">
+        <img src="IMAGE_THREE.jpg" alt="Description 3">
+    </div>
+
+    <a href="https://www.youtube.com" class="youtube-link" target="_blank">
+        Watch on YouTube
+    </a>
+
+</body>
 </html>
